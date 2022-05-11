@@ -1,0 +1,119 @@
+vim editor: 3 TYPES
+
+1. COMMAND MODE
+2. INSERT MODE
+3. SAVE AND QUIT MODE 
+
+1. COMMAND MODE
+
+gg	: 	starting of the file
+G 	: 	ending of the file
+yy	:	copies the whole line
+p	:	print the copied conent 
+5p	:	print 5 lines
+dd	:	deletes the line
+5dd	:	delets the 5 lines
+u	:	undo
+/	:	find the word
+
+2. INSERT MODE
+
+i	:	command mode to insert mode
+I	:	starting of the line
+a	:	one character ahead
+A	:	end of the line
+o	:	creats new line (down)
+O	:	creates new line (up)
+
+
+3. SAVE & QUIT MODE
+
+:w	:	save
+:q	:	quit
+:wq!	:	save & quit 
+
+-----------------------------------------------------------
+TYPE OF THE FILE:
+
+-	:	REGULAR FILE
+d	:	DIRECTORY
+c	:	CHARACTER 
+b	:	BLOCKED 
+|	:	PIPELINE 
+
+------------------------------
+PERMISSIONS 
+
+rw-   r--   r-- 
+6	4	4
+
+1. USER PERMISSIONS
+2. GROUP PERMISSIONS
+3. OTHERS PERMISSIONS
+
+r	:	read	:	4
+w	:	write	:	2
+x	:	execute	1
+-	:	null	:	0
+
+ex:	rwx	rw-	r-x
+	7	6	5
+	---	r--	--x
+	0	4	1
+
+-----------------------
+ACCESS CONTROL LIST (ACL)
+1 - FILE
+2 - FOLDER
+
+-------------------
+FILE OWNERS
+
+root root
+
+1 root 	:	user
+2 root	:	group
+------------------
+DATA IN A FILE (NO OF CHARACTERS)
+ 268 
+
+------------------------
+FILE CREATION DETAILS 
+Apr  5 15:01 
+
+--------------------
+FILE NAME 
+
+file1
+
+------------------------------------------------------------------------------
+
+USER : siva:x:1002:1002::/home/siva:/bin/bash
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

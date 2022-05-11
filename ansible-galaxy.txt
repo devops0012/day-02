@@ -1,0 +1,10 @@
+ansible-galaxy init devops
+cd devops/
+go to ansible galaxy 
+ansible-galaxy search elasticsearch
+ansible-galaxy install geerlingguy.java
+ansible-galaxy search elasticsearch --author alikins
+ansible-galaxy install alikins.elasticsearch
+cd /home/ansible/.ansible/roles/
+cd alikins.elasticsearch
+ansible-galaxy collection install bonddim.linux
